@@ -1,0 +1,8 @@
+import org.example.Greetable;
+
+public class DayGreet extends Greetable {
+    @Override
+    public String buildResponse(String userName) {
+        return "Good day, " + userName;
+    }
+}
